@@ -24,6 +24,10 @@ body{
 
 }
 
+.header{
+    gap: 30px;
+}
+
 .top-content{
     gap: 32px;
     padding: 16px 0;
@@ -74,6 +78,7 @@ a{
     padding: 8px 16px;
     border-radius: 10px;
     color: #f9faf8;
+
 }
 
 .content{
@@ -156,7 +161,7 @@ span{
     gap: 16px;
 }
 
-.but2{
+.but, .but2{
     background: transparent;
     border: 2px solid white;
     border-radius: 6px;
@@ -168,13 +173,18 @@ span{
     min-height: 35px;
 }
 
-.but2:hover{
+.but{
+    padding: 8px 16px;
+    border-radius: 10px;
+}
+
+.but:hover,.but2:hover{
     background: white;
     border: 2px solid #99bdf6;
     color: black;
     border-radius: 6px;
 }
-.but2:active{
+.but:active,.but2:active{
     color: #3882f6;
 }
 
